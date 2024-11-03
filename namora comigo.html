@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>namora comigo?</title>
+
+    <style>
+       body{background-color:red}.painel{margin:auto;background-color:#f5f5f5;width:500px;height:500px;border-radius:20px;text-align:center;padding-top:50px;font-family:'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif}#sim{height:40px;width:60px;background-color:red;border:2px solid #fff;border-radius:10px;color:#fff;cursor:pointer;margin-left:-50px}#nao{position:absolute;height:40px;width:60px;background-color:red;border:2px solid #f5deb3;border-radius:10px;color:#fff;margin-left:10px;cursor:pointer}
+    </style>
+</head>
+<body>
+
+    <div class="painel">
+        <h1>vc quem decide</h1>
+
+        <img src="https://gifman.net/wp-content/uploads/2019/06/ursinho-fofo-apaixonado.gif" alt="ursinho apaixonado">
+                               
+        <h2>aceita tentar a sorte comigo??</h2>
+
+
+        <a href="https://www.youtube.com/watch?v=5si1VQICDKI"><button id="sim">sim</button></a>
+        <button onmousemove="fuja()" id="nao">não</button>
+
+        
+
+    </div>
+
+    <script>
+        function fuja(){var a=document.getElementById("nao"),b=window.innerWidth,c=window.innerHeight,d=b-a.offsetWidth,e=c-a.offsetHeight,f=Math.floor(Math.random()*d),g=Math.floor(Math.random()*e);a.style.left=f+"px",a.style,top=g+"px"}function parabens(){alert("parab\xE9ns, vc n\xE3o vai se arrempender dessa escolha :) ")}
+    </script>
+
+
+
+</body>
+</html>
